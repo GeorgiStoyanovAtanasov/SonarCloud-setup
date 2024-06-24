@@ -8,5 +8,6 @@ public class SonarController {
     @GetMapping("/")
     public String message(){
         return "hi";
+
     }
 }
